@@ -17,8 +17,8 @@
                 </el-form-item>
                 <!-- password -->
                 <el-form-item class="btns">
-                    <el-button type="primary" @click="login">Log in</el-button>
-                    <el-button type="info" @click="resetLoginForm">Reset</el-button>
+                    <el-button type="primary" @click="login">登录</el-button>
+                    <el-button type="info" @click="resetLoginForm">重置</el-button>
                 </el-form-item>
             </el-form>
         </div>
@@ -61,7 +61,7 @@ export default {
         // 1. Save the token generated after logging in to the sessionStorage of client
         //  1.1 all the other APIs except for Log in should only be accessed after logging in
         //  1.2 token should only be valid when the website is open, so we save the token in sessionStorage
-        console.log(res);
+        // console.log(res);
         window.sessionStorage.setItem('token', res.data.token);
         // 2. navigate to home page via router, the router path is /home
         this.$router.push('/home');
