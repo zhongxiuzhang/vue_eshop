@@ -23,3 +23,15 @@ html, body, #app{
 .el-pagination{
     margin-top: 15px;
 }
+
+.treeTable{
+    margin-top:15px;
+}
+
+.el-cascader-menu {
+    height: 300px;
+}
+
+.el-cascader {
+    width: 100%;
+}
