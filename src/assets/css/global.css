@@ -35,3 +35,7 @@ html, body, #app{
 .el-cascader {
     width: 100%;
 }
+
+.cat_opt {
+    margin: 15px 0;
+}
